@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MYX Silversmith</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 5px #000;
+    }
+    .hero h2 {
+      font-size: 3rem;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .product {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      flex: 1 1 calc(33.333% - 2rem);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MYX Silversmith</h1>
+    <p>Handcrafted Jewelry with a Modern Edge</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Timeless Craftsmanship</h2>
+  </div>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At MYX Silversmith, we specialize in artisan silver jewelry crafted with precision and passion. Each piece is designed to blend elegance with individuality, perfect for those who appreciate timeless craftsmanship and contemporary style.</p>
+  </section>
+
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1602524200463-2be19d1218c5?auto=format&fit=crop&w=800&q=80" alt="Silver Ring">
+        <h3>Silver Ring</h3>
+        <p>Elegant and minimal, our signature silver ring.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1602524816373-5f8b5e40bb35?auto=format&fit=crop&w=800&q=80" alt="Silver Pendant">
+        <h3>Silver Pendant</h3>
+        <p>A modern twist on traditional symbolism.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1562166434-89107cc3b10b?auto=format&fit=crop&w=800&q=80" alt="Silver Cuff">
+        <h3>Silver Cuff</h3>
+        <p>Bold, strong, and uniquely handcrafted.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: info@myxsilversmith.com<br>Phone: +63 976 079 5394</p>
+    <p>Follow us on social media @myxsilversmith</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MYX Silversmith. All rights reserved.</p>
+  </footer>
+</body>
+</html>
